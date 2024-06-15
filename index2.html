@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas Jordan Cadence - Dama y Hombre</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        h1, h2 {
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+            animation: zoomInOut 2s infinite;
+        }
+        @keyframes zoomInOut {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        p {
+            font-size: 1.2em;
+            color: #fff;
+        }
+        .product-image {
+            width: 80%;
+            max-width: 400px;
+            border: 5px solid #ff69b4;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            animation: fadeIn 2s;
+            margin-bottom: 20px;
+        }
+        .thumbnails {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .thumbnail {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            border: 3px solid #ff69b4;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+        }
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .thumbnail img:hover {
+            transform: scale(1.1);
+        }
+        .description {
+            padding: 10px;
+            font-size: 0.9em;
+            color: #fff;
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 1.5em;
+            animation: zoomInOut 2s infinite;
+        }
+        .contact a {
+            text-decoration: none;
+            color: white;
+            background-color: #25d366;
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s;
+        }
+        .contact a:hover {
+            background-color: #128c7e;
+        }
+        .price {
+            font-size: 2em;
+            color: #ff4500;
+            margin-top: 20px;
+            animation: colorChange 2s infinite;
+        }
+        @keyframes colorChange {
+            0% {
+                color: #ff4500;
+            }
+            50% {
+                color: #ff1493;
+            }
+            100% {
+                color: #ff4500;
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .final-message {
+            margin-top: 40px;
+            font-size: 1.5em;
+            animation: zoomText 2s infinite;
+        }
+        @keyframes zoomText {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        @keyframes colorChangeRed {
+            0% {
+                color: #ff0000;
+            }
+            50% {
+                color: #ff69b4;
+            }
+            100% {
+                color: #ff0000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ZAPATILLAS JORDAN CADENCE</h1>
+        <h2>Puedes Pagar al Recibir</h2>
+        <img class="product-image" src="https://raw.githubusercontent.com/Orlyk2/ZapatillasCadence/main/WhatsApp%20Image%202024-06-14%20at%2010.59.44%20PM%20(3).jpeg" alt="Zapatillas Jordan Cadence">
+        <div class="thumbnails">
+            <div class="thumbnail">
+                <img src="https://raw.githubusercontent.com/Orlyk2/ZapatillasCadence/main/WhatsApp%20Image%202024-06-14%20at%2010.59.44%20PM%20(2).jpeg" alt="Thumbnail 1">
+                <div class="description"><strong>Detalle lateral:</strong> Estilizado y elegante diseño, perfecto para cualquier ocasión.</div>
+            </div>
+            <div class="thumbnail">
+                <img src="https://raw.githubusercontent.com/Orlyk2/ZapatillasCadence/main/WhatsApp%20Image%202024-06-14%20at%2010.59.44%20PM%20(4).jpeg" alt="Thumbnail 2">
+                <div class="description"><strong>Detalle del talón y suela:</strong> Alta calidad y durabilidad garantizadas.</div>
+            </div>
+            <div class="thumbnail">
+                <img src="https://raw.githubusercontent.com/Orlyk2/ZapatillasCadence/main/WhatsApp%20Image%202024-06-14%20at%2010.59.44%20PM%20(3).jpeg" alt="Thumbnail 3">
+                <div class="description"><strong>Vista frontal:</strong> Diseño moderno y atractivo para destacar en cada paso.</div>
+            </div>
+        </div>
+        <p>Descubre la combinación perfecta de estilo, comodidad y rendimiento con las zapatillas Jordan Cadence. Diseñadas para los amantes del deporte y la moda, estas zapatillas no solo te permitirán destacar en cada paso, sino que también te brindarán el soporte y la comodidad que necesitas durante todo el día.</p>
+        <p><strong style="color: #ff0000; text-transform: uppercase; animation: colorChangeRed 2s infinite;">Características destacadas</strong></p>
+        <ul style="text-align: left;">
+            <li><strong><span style="font-weight: bold; color: #ff69b4;">Diseño Moderno y Elegante:</span></strong> Inspiradas en las icónicas líneas de la marca Jordan, estas zapatillas presentan un diseño innovador y contemporáneo que se adapta a cualquier look, ya sea casual o deportivo.</li>
+            <li><strong><span style="font-weight: bold; color: #ff69b4;">Comodidad Superior:</span></strong> Equipadas con una plantilla acolchada y una suela de goma resistente, las Jordan Cadence garantizan una pisada suave y cómoda. ¡Ideal para largas caminatas o intensas sesiones de entrenamiento!</li>
+            <li><strong><span style="font-weight: bold; color: #ff69b4;">Materiales de Alta Calidad:</span></strong> Fabricadas con materiales duraderos y transpirables, estas zapatillas aseguran una ventilación óptima y una larga vida útil.</li>
+            <li><strong><span style="font-weight: bold; color: #ff69b4;">Versatilidad:</span></strong> Disponibles en tallas para dama y hombre, las Jordan Cadence son perfectas para cualquier ocasión, desde un día casual hasta una sesión intensa de entrenamiento.</li>
+        </ul>
+        <div class="price">$188.000</div>
+        <div class="contact">
+            <a href="https://wa.me/3136299375" target="_blank">Contáctanos por WhatsApp</a>
+        </div>
+        <p class="final-message"><strong style="color: #ff69b4; text-transform: uppercase; animation: zoomInOut 2s infinite;">Ubicados en
+            Colombia, bodega de despachos en Siberia Colparques</strong></p>
+        </div>
+        
+        </div>
+        </body>
+        </html>
